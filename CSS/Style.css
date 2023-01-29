@@ -1,0 +1,854 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    background-color: #ffffff;
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+
+}
+
+.general{
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.seccionTitulo{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.tituloPrincipal{   
+    color: #d2b5a3;
+    font-family: 'Baskervville', serif;
+    font-size: 40px;
+    transition: 0.2s;
+}
+.tituloPrincipal:hover{
+    font-size: 44px;
+
+}
+
+ .header{
+    background-color: #e9e9e9;  
+    height: 70px;
+    padding-top: 15px;
+}
+.header a{
+    font-size: 18px;
+    color: #6e6e6d;
+    text-decoration: none;
+    font-family: 'Baskervville', serif;
+    transition: .3s;
+}
+.header a:hover{
+    color: #d2b5a3;
+}
+.seccionSubtitulo{
+    width: 100%;
+    height: auto;
+}
+.subtituloPrincipal{
+    color: #d2b5a3;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Baskervville', serif;
+
+}
+.seccionSubtitulo2{
+    width: 100%;
+    height: auto;
+}
+.parrafoSubtitulo{
+    color: black;
+    font-size: 20px;
+    font-family: 'Baskervville', serif;
+    margin-bottom: 7px;
+}
+.seccionInicio{
+    color: black;
+    font-size: 20px;
+    font-family: 'Baskervville', serif;
+}
+.subtituloGaleria{
+    color: #d2b5a3 ;
+    font-size: 25px;
+    font-family: 'Baskervville', serif;
+}
+.parrafoPaquete{
+    color: black;
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+}
+.tituloPaquete{
+    color: #d2b5a3 ;
+    font-family: 'Baskervville', serif;
+    font-size: 25px;
+}
+.tituloCombo1, .subtituloCombo1, .textoCombo1, .valorCombo1, .precioCombo1, .tituloCombo2, .subtituloCombo2, .textoCombo2, .valorCombo2, .precioCombo2, .tituloCombo3, .subtituloCombo3, .textoCombo3, .valorCombo3, .precioCombo3{
+    color: black;
+    font-family: 'Baskervville', serif;
+}
+.interior1{
+    transition: all 0.5s ease;
+}
+.interior1:hover{
+    transform: scale(0.9);
+}
+.interior2{
+    transition: all 0.5s ease;
+}
+.interior2:hover{
+    transform: scale(0.9);
+}
+.interior3{
+    transition: all 0.5s ease;
+}
+.interior3:hover{
+    transform: scale(0.9);
+}
+.habitacion1{
+    transition: all 0.5s ease;
+}
+.habitacion1:hover{
+    transform: scale(0.9);
+}
+.habitacion2{
+    transition: all 0.5s ease;
+}
+.habitacion2:hover{
+    transform: scale(0.9);
+}
+.habitacion3{
+    transition: all 0.5s ease;
+}
+.habitacion3:hover{
+    transform: scale(0.9);
+}
+.restaurante1{
+    transition: all 0.5s ease;
+}
+.restaurante1:hover{
+    transform: scale(0.9);
+}
+.restaurante2{
+    transition: all 0.5s ease;
+}
+.restaurante2:hover{
+    transform: scale(0.9);
+}
+.parapente{
+    transition: all 0.5s ease;
+}
+.parapente:hover{
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.paseoCaballo{
+    transition: all 0.5s ease;
+}
+.paseoCaballo:hover{
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.paseoLaguna{
+    transition: all 0.5s ease;
+}
+.paseoLaguna:hover{
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.cuatrimotos{
+    transition: all 0.5s ease;
+}
+.cuatrimotos:hover{
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.imagenCombo1{
+    transition: all 0.5s ease;
+}
+.imagenCombo1:hover{
+    transform: scale(0.9);
+}
+.imagenCombo2{
+    transition: all 0.5s ease;
+}
+.imagenCombo2:hover{
+    transform: scale(0.9);
+}
+.imagenCombo3{
+    transition: all 0.5s ease;
+}
+.imagenCombo3:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .slide{
+        margin-top: 20px;
+    }
+    .piePagina{
+        width: 100%;
+        padding: auto;
+        background-color: #e9e9e9;
+        height: auto;
+    }
+    .containerFooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 220px;
+    }
+    .cajaFooter{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .cajaFooter .logoFooter img{
+        width: 180px;
+    }
+    .cajaFooter h2{
+        margin-bottom: 15px;
+        color: #6e6e6d ;
+        font-family: 'Baskervville', serif;
+    }
+    .cajaFooter h5{
+        margin-top: 10px;
+        color: #6e6e6d ;
+        font-family: 'Baskervville', serif;
+        font-size: 19px;
+    }
+    .cajaFooter a{
+        margin-top: 10px;
+        color: #6e6e6d ;
+        font-size: 19px;
+        font-family: 'Baskervville', serif;
+        text-decoration: none;
+        transition: .3s;
+    }
+    .cajaFooter a:hover{
+        color: #d2b5a3;
+    }
+    .containerCopyrigt{
+        background-color: #ffffff;
+        font-family: 'Baskervville', serif;
+        color: #d2b5a3;
+    
+    }
+       
+    .seccionInicio{
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 350px;
+        padding: 110px;
+        align-items: center;
+        text-align: left;
+    }
+    .primerGaleria{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "int1 int2 int3";
+    }
+    .int1{
+        grid-area: int1;
+    }
+    .int2{
+        grid-area: int2;
+    }
+    .int3{
+        grid-area: int3;
+    }
+    .segundaGaleria{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "habi1 habi2 habi3";
+    }
+    .habi1{
+        grid-area: habi1;
+    }
+    .habi2{
+        grid-area: habi2;
+    }
+    .habi3{
+        grid-area: habi3;
+    }
+    .tercerGaleria{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "rest1 rest2";
+        margin-bottom: 30px;
+    }
+    .rest1{
+        grid-area: rest1;
+    }
+    .rest2{
+        grid-area: rest2;
+    }
+    .seccionPaquetes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        row-gap: 25px;
+        margin-bottom: 25px;
+    }
+    .paquete1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .paquete2{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .paquete3{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .paquete4{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .parrafoPaquete{
+        color: black;
+        padding-left: 29px;
+        padding-right: 29px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .combosGeneral{
+        display: grid;
+        width: 100%;
+        height: auto;
+        row-gap: 30px;
+    }
+    .combosGeneral{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "imagen1 combo1" "imagen2 combo2" "imagen3 combo3";
+    }
+    .imgComboHospedaje1{
+        grid-area: imagen1;
+    }
+    .parrafoGeneralHospedaje1{
+        grid-area: combo1;
+    }
+    .imgComboHospedaje2{
+        grid-area: imagen2;
+    }
+    .parrafoGeneralHospedaje2{
+        grid-area: combo2;
+    }
+    .imgComboHospedaje3{
+        grid-area: imagen3;
+    }
+    .parrafoGeneralHospedaje3{
+        grid-area: combo3;
+    }
+    .parrafoGeneralHospedaje1{
+        display: grid;
+        width: 500px;
+        height: 200px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 50%;
+    }
+    .tituloCombo1{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo1{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo1{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo1{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .precioCombo1{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .parrafoGeneralHospedaje2{
+        display: grid;
+        width: 500px;
+        height: 200px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 50%;
+    }
+    .tituloCombo2{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo2{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo2{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .precioCombo2{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .parrafoGeneralHospedaje3{
+        display: grid;
+        width: 500px;
+        height: 200px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 50%;
+    }
+    .tituloCombo3{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo3{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo3{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .precioCombo3{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .slide{
+        margin-top: 20px;
+
+    }
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .cajaFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaFooter h2{
+        margin-bottom: 0;
+        color: #6e6e6d ;
+        font-family: 'Baskervville', serif;
+    }
+    .cajaFooter h5{
+        margin-top: .5px;
+        color: #6e6e6d ;
+        font-family: 'Baskervville', serif;
+        font-size: 15px;
+    }
+    .cajaFooter a{
+        margin-top: 0;
+        color: #6e6e6d ;
+        font-size: 15px;
+        font-family: 'Baskervville', serif;
+        text-decoration: none;
+        transition: .3s;
+    }
+    .cajaFooter a:hover{
+        color: #d2b5a3;
+    }
+
+    .seccionInicio{
+        display: flex;
+        flex-direction: column;
+        width: 100% ;
+        height: auto;
+        padding: 40px;
+        align-items: center;
+        text-align: left;
+    }
+    .primerGaleria{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "int1" "int2" "int3";
+    }
+    .int1{
+        grid-area: int1;
+    }
+    .int2{
+        grid-area: int2;
+    }
+    .int3{
+        grid-area: int3;
+    }
+    
+    .segundaGaleria{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "habi1" "habi2" "habi3";
+    }
+    .habi1{
+        grid-area: habi1;
+    }
+    .habi2{
+        grid-area: habi2;
+    }
+    .habi3{
+        grid-area: habi3;
+    }
+    .tercerGaleria{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "rest1" "rest2";
+    }
+    .rest1{
+        grid-area: rest1;
+    }
+    .rest2{
+        grid-area: rest2;
+    }
+    .interior1{
+        width: 100%;
+        height: 200px;
+    }
+    .interior2{
+        width: 100%;
+        height: 200px;
+    }
+    .interior3{
+        width: 100%;
+        height: 200px;
+    }
+    .habitacion1{
+        width: 100%;
+        height: 200px;
+    }
+    .habitacion2{
+        width: 100%;
+        height: 200px;
+    }
+    .habitacion3{
+        width: 100%;
+        height: 200px;
+    }
+    .restaurante1{
+        width: 100%;
+        height: 200px;
+    }
+    .restaurante2{
+        width: 100%;
+        height: 200px;
+    }
+    .seccionPaquetes{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .paquete1{
+        grid-column: auto;
+        grid-row: 1 / 2;
+        width: 100%;
+    }
+    .paquete2{
+        grid-column: auto;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    .paquete3{
+        grid-column: auto;
+        grid-row: 3 / 4;
+        width: 100%;
+    }
+    .paquete4{
+        grid-column: auto;
+        grid-row: 4 / 5;
+        width: 100%;
+    }
+    .parrafoPaquete{
+        text-align: justify;
+        padding: 15px ;
+    }
+    .parapente{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .cuatrimotos{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .paseoCaballo{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .paseoLaguna{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .combosGeneral{
+        display: grid;
+        width: 100%;
+        height: auto;
+        row-gap: 30px;
+    }
+    .combosGeneral{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: "imagen1" "combo1" "imagen2" "combo2" "imagen3" "combo3";
+    }
+    .imgComboHospedaje1{
+        grid-area: imagen1;
+        width: 100%;
+    }
+    .parrafoGeneralHospedaje1{
+        grid-area: combo1;
+        justify-items: center;
+    }
+    .imgComboHospedaje2{
+        grid-area: imagen2;
+        width: 100%;
+    }
+    .parrafoGeneralHospedaje2{
+        grid-area: combo2;
+    }
+    .imgComboHospedaje3{
+        grid-area: imagen3;
+        width: 100%;
+    }
+    .parrafoGeneralHospedaje3{
+        grid-area: combo3;
+    }
+
+    .parrafoGeneralHospedaje1{
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    .tituloCombo1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo1{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo1{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo1{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .precioCombo1{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .parrafoGeneralHospedaje2{
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    .tituloCombo2{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo2{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo2{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .precioCombo2{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .parrafoGeneralHospedaje3{
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    .tituloCombo3{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .subtituloCombo3{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .textoCombo3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .valorCombo3{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .precioCombo3{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .imagenCombo1{
+        width: 100%;
+        height: 200px; 
+    }
+    .imagenCombo2{
+        width: 100%;
+        height: 200px; 
+    }
+    .imagenCombo3{
+        width: 100%;
+        height: 200px; 
+    }
+}
+
+/* .piePagina{
+    width: 100%;
+    border-style: dashed;
+    border-color: #8C3115;
+    background-color: #7be996;
+    text-align: right;
+}   */
+
+/* .seccionSubtitulo{
+    width: 100%;
+    height: 50px;
+} */
+
+.galeria, div, h5{
+    color: #d2b5a3;
+    font-size: 18px;
+    font-family: 'Baskervville', serif;
+    margin-bottom: 7px;
+}
+
+.terceraGaleria, div, img{
+    text-align: center;
+}
+
+
+.formulario{
+    background-color:#ffffff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0/ 30%);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.formularioTitulo{
+    margin-bottom: 10px;
+}
+.formularioContenido{
+    margin: 3rem;
+    display: grid;
+    gap: 2rem;
+}
+.formularioGrupo{
+    position: relative;
+    --color: #5757577e; 
+}
+.formImput{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+
+.formImput:focus + .formLabel,
+.formImput:not(:placeholder-shown) + .formLabel{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #d2b5a3;
+}
+
+.formLabel{
+    color:#6e6e6d;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+
+}
+.botonEnvio{
+    background-color:#e9e9e9;
+    color: #6e6e6d; 
+    font-family: 'Baskervville', serif;
+    padding: .2em;
+    border: none;
+    border-radius: .3em;
+}
+
+
+
+
+
+
+
+
+
+
+
