@@ -29,7 +29,6 @@ body {
   font-size: 40px;
   transition: 0.2s;
 }
-
 .tituloPrincipal:hover {
   font-size: 44px;
 }
@@ -39,7 +38,6 @@ body {
   height: 70px;
   padding-top: 15px;
 }
-
 .header a {
   font-size: 18px;
   color: #6e6e6d;
@@ -47,7 +45,6 @@ body {
   font-family: "Baskervville", serif;
   transition: 0.3s;
 }
-
 .header a:hover {
   color: #d2b5a3;
 }
@@ -109,7 +106,6 @@ body {
 .interior1 {
   transition: all 0.5s ease;
 }
-
 .interior1:hover {
   transform: scale(0.9);
 }
@@ -785,17 +781,6 @@ body {
     height: 200px;
   }
 }
-/* .piePagina{
-    width: 100%;
-    border-style: dashed;
-    border-color: #8C3115;
-    background-color: #7be996;
-    text-align: right;
-}   */
-/* .seccionSubtitulo{
-    width: 100%;
-    height: 50px;
-} */
 .galeria, div, h5 {
   color: #d2b5a3;
   font-size: 18px;
