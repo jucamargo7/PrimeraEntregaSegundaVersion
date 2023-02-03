@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Aplicación de import y variables*/
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +35,7 @@ body {
   font-size: 44px;
 }
 
+/*Aplicación de Nesting o anidación*/
 .header {
   background-color: #e9e9e9;
   height: 70px;
@@ -49,11 +52,13 @@ body {
   color: #d2b5a3;
 }
 
-.seccionSubtitulo {
+/*Aplicación de Mapas*/
+.seccionSubtitulo, .subtituloPrincipal {
   width: 100%;
   height: auto;
 }
 
+/*Aplicación de Extend*/
 .subtituloPrincipal {
   color: #d2b5a3;
   font-size: 30px;
@@ -315,10 +320,11 @@ body {
     background-color: #e9e9e9;
     height: auto;
   }
+  /*Aplicación de Mixin*/
   .containerFooter {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 220px;
   }
   .cajaFooter {

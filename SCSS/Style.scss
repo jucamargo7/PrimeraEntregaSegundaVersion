@@ -1,3 +1,4 @@
+/*Aplicación de import y variables*/
 @import "variables";
 
 *{
@@ -18,11 +19,13 @@ body{
     overflow: hidden;
 }
 
+
 .seccionTitulo{
     width: 100%;
     height: 40px;
     margin-top: 10px;
 }
+
 .tituloPrincipal{   
     color: $colorLetraPrincipal;
     font-family: 'Baskervville', serif;
@@ -32,6 +35,7 @@ body{
     font-size: 44px;
     }
 }
+/*Aplicación de Nesting o anidación*/
 .header{
     background-color: $colorContainer;  
     height: 70px;
@@ -47,13 +51,21 @@ body{
         }
     }
 }
+
+/*Aplicación de Mapas*/
+
+$tamañosLetras: (titulos:40px, subtitulos:30px, parrafos:20px);
+
 .seccionSubtitulo{
     width: 100%;
     height: auto;
 }
+/*Aplicación de Extend*/
+
 .subtituloPrincipal{
+    @extend .seccionSubtitulo;
     color: $colorLetraPrincipal;
-    font-size: 30px;
+    font-size: map-get($tamañosLetras, subtitulos);
     text-align: center;
     margin-bottom: 10px;
     font-family: 'Baskervville', serif;
@@ -65,7 +77,7 @@ body{
 }
 .parrafoSubtitulo{
     color: black;
-    font-size: 20px;
+    font-size: map-get($tamañosLetras, parrafos);
     font-family: 'Baskervville', serif;
     margin-bottom: 7px;
 }
@@ -277,10 +289,16 @@ body{
         background-color: $colorContainer;
         height: auto;
     }
-    .containerFooter{
+    
+    /*Aplicación de Mixin*/
+
+    @mixin flexbox ($justify){
         display: flex;
+        justify-content: $justify;
+    }
+    .containerFooter{
+        @include flexbox(space-between);
         flex-wrap: wrap;
-        justify-content: space-between;
         height: 220px;
     }
     .cajaFooter{
